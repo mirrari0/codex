@@ -53,49 +53,82 @@ class Letterbox extends Component {
     }
 
     render() {
-        return <div style={{...codexStyle, borderColor: this.state.fontColor, backgroundColor: this.state.backgroundColor}}>
+        return <div
+            style={{...codexStyle, borderColor: this.state.fontColor, backgroundColor: this.state.backgroundColor}}>
 
             <div style={codexSlot}>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleUpClickOne.bind(this)
-                }><TiArrowUpOutline size={34}/></button>
-                <label style={{...letters, borderColor: this.state.fontColor, color: this.state.fontColor}}>{this.getLetterOne()}</label>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleDownClickOne.bind(this)
-                }><TiArrowDownOutline size={34}/></button>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleUpClickOne.bind(this)
+                    }><TiArrowUpOutline size={34}/></button>
+                <label style={{
+                    ...letters,
+                    borderColor: this.state.fontColor,
+                    color: this.state.fontColor
+                }}>{this.getLetterOne()}</label>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleDownClickOne.bind(this)
+                    }><TiArrowDownOutline size={34}/></button>
             </div>
 
             <div style={codexSlot}>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleUpClickTwo.bind(this)
-                }><TiArrowUpOutline size={34}/>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleUpClickTwo.bind(this)
+                    }><TiArrowUpOutline size={34}/>
                 </button>
-                <label style={{...letters, borderColor: this.state.fontColor, color: this.state.fontColor}}>{this.getLetterTwo()}</label>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleDownClickTwo.bind(this)
-                }><TiArrowDownOutline size={34}/>
-                </button>
-            </div>
-            <div style={codexSlot}>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleUpClickThree.bind(this)
-                }><TiArrowUpOutline size={34}/>
-                </button>
-                <label style={{...letters, borderColor: this.state.fontColor, color: this.state.fontColor}}> {this.getLetterThree()}</label>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleDownClickThree.bind(this)
-                }><TiArrowDownOutline size={34}/>
+                <label style={{
+                    ...letters,
+                    borderColor: this.state.fontColor,
+                    color: this.state.fontColor
+                }}>{this.getLetterTwo()}</label>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleDownClickTwo.bind(this)
+                    }><TiArrowDownOutline size={34}/>
                 </button>
             </div>
             <div style={codexSlot}>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleUpClickFour.bind(this)
-                }><TiArrowUpOutline size={34}/>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleUpClickThree.bind(this)
+                    }><TiArrowUpOutline size={34}/>
                 </button>
-                <label style={{...letters, borderColor: this.state.fontColor, color: this.state.fontColor}}> {this.getLetterFour()} </label>
-                <button style={{...codexButtons,backgroundColor: this.state.backgroundColor,color: this.state.fontColor}} onClick={
-                    this.handleDownClickFour.bind(this)
-                }><TiArrowDownOutline size={34}/>
+                <label style={{
+                    ...letters,
+                    borderColor: this.state.fontColor,
+                    color: this.state.fontColor
+                }}> {this.getLetterThree()}</label>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleDownClickThree.bind(this)
+                    }><TiArrowDownOutline size={34}/>
+                </button>
+            </div>
+            <div style={codexSlot}>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleUpClickFour.bind(this)
+                    }><TiArrowUpOutline size={34}/>
+                </button>
+                <label style={{
+                    ...letters,
+                    borderColor: this.state.fontColor,
+                    color: this.state.fontColor
+                }}> {this.getLetterFour()} </label>
+                <button
+                    style={{...codexButtons, backgroundColor: this.state.backgroundColor, color: this.state.fontColor}}
+                    onClick={
+                        this.handleDownClickFour.bind(this)
+                    }><TiArrowDownOutline size={34}/>
                 </button>
             </div>
         </div>
@@ -243,7 +276,9 @@ const codexStyle = {
     borderWidth: 'thick',
     paddingBottom: 20,
     paddingTop: 10,
-    alignContent: 'center',
+    // alignContent: 'center',
+    // alignItems: 'center',
+    justifyContent: 'center',
 };
 
 const codexSlot = {
