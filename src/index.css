@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: 'RockSalt';
+  src: local('RockSalt'), url("fonts/Rock_Salt/RockSalt-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Bungee';
+  src: local('Bungee'), url("fonts/Bungee/Bungee-Regular.ttf") format('truetype');
+}
