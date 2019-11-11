@@ -243,28 +243,25 @@ class Letterbox extends Component {
 }
 
 
-const puzzleOneLetterOne = ['A', 'G', 'P', 'T', 'W', 'N', 'C', 'S'];
-const puzzleOneLetterTwo = ['I', 'M', 'A', 'U', 'E', 'T', 'H', 'G'];
-const puzzleOneLetterThree = ['R', 'M', 'U', 'A', 'N', 'C', 'I', 'P'];
-const puzzleOneLetterFour = ['H', 'S', 'P', 'N', 'G', 'E', 'O', 'T'];
+const puzzleOneLetterOne = ['G', 'F', 'H', 'S', 'R', 'K', 'Q', 'J', 'E', 'A', 'T', 'N'];
+const puzzleOneLetterTwo = ['M', 'Z', 'Y', 'D', 'R', 'I', 'A', 'F', 'O', 'W', 'U', 'K'];
+const puzzleOneLetterThree = ['J', 'H', 'R', 'Y', 'T', 'N', 'O', 'F', 'B', 'K', 'M', 'U'];
+const puzzleOneLetterFour = ['C', 'G', 'T', 'O', 'N', 'K', 'D', 'X', 'Y', 'R', 'S', 'E'];
 
+const puzzleTwoLetterOne = ['B', 'F', 'E', 'W', 'J', 'D', 'V', 'Y', 'O', 'U', 'M', 'C'];
+const puzzleTwoLetterTwo = ['K', 'X', 'H', 'T', 'S', 'E', 'O', 'D', 'R', 'N', 'Y', 'B'];
+const puzzleTwoLetterThree = ['W', 'B', 'U', 'I', 'S', 'M', 'P', 'X', 'K', 'G', 'D', 'O'];
+const puzzleTwoLetterFour = ['R', 'U', 'D', 'O', 'K', 'A', 'L', 'W', 'Y', 'T', 'B', 'M'];
 
-const puzzleTwoLetterOne = ['C', 'T', 'W', 'A', 'G', 'N', 'S', 'P'];
-const puzzleTwoLetterTwo = ['G', 'A', 'T', 'U', 'H', 'M', 'E', 'O'];
-const puzzleTwoLetterThree = ['C', 'O', 'U', 'N', 'R', 'P', 'B', 'W'];
-const puzzleTwoLetterFour = ['N', 'E', 'P', 'H', 'G', 'S', 'O', 'D'];
+const puzzleThreeLetterOne = ['R', 'B', 'U', 'K', 'D', 'P', 'F', 'L', 'A', 'E', 'V', 'Y'];
+const puzzleThreeLetterTwo = ['L', 'Q', 'X', 'V', 'I', 'M', 'U', 'O', 'A', 'F', 'J', 'P'];
+const puzzleThreeLetterThree = ['C', 'M', 'F', 'G', 'X', 'A', 'T', 'I', 'D', 'W', 'S', 'R'];
+const puzzleThreeLetterFour = ['D', 'E', 'L', 'K', 'X', 'T', 'B', 'R', 'C', 'N', 'I', 'M'];
 
-
-const puzzleThreeLetterOne = ['D', 'A', 'C', 'S', 'G', 'T', 'W', 'N'];
-const puzzleThreeLetterTwo = ['T', 'A', 'U', 'H', 'I', 'M', 'E', 'O'];
-const puzzleThreeLetterThree = ['T', 'R', 'B', 'C', 'W', 'O', 'P', 'U'];
-const puzzleThreeLetterFour = ['P', 'S', 'E', 'T', 'N', 'G', 'O', 'H'];
-
-
-const puzzleFourLetterOne = ['W', 'S', 'A', 'N', 'P', 'G', 'T', 'C'];
-const puzzleFourLetterTwo = ['H', 'G', 'T', 'A', 'M', 'U', 'I', 'E'];
-const puzzleFourLetterThree = ['M', 'I', 'P', 'R', 'N', 'C', 'U', 'A'];
-const puzzleFourLetterFour = ['H', 'S', 'E', 'P', 'N', 'G', 'R', 'T'];
+const puzzleFourLetterOne = ['I', 'T', 'J', 'A', 'Y', 'K', 'P', 'S', 'V', 'W', 'E', 'B'];
+const puzzleFourLetterTwo = ['K', 'F', 'M', 'T', 'H', 'G', 'C', 'O', 'S', 'N', 'A', 'L'];
+const puzzleFourLetterThree = ['B', 'E', 'P', 'M', 'S', 'N', 'O', 'C', 'T', 'Z', 'A', 'L'];
+const puzzleFourLetterFour = ['Y', 'B', 'I', 'W', 'K', 'V', 'D', 'R', 'O', 'M', 'A', 'X'];
 
 const codexStyle = {
     display: 'flex',
